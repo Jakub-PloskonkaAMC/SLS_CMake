@@ -15,6 +15,7 @@ set(MX_Include_Dirs
     ${CMAKE_CURRENT_SOURCE_DIR}/../../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy
     ${CMAKE_CURRENT_SOURCE_DIR}/../../Drivers/CMSIS/Device/ST/STM32F4xx/Include
     ${CMAKE_CURRENT_SOURCE_DIR}/../../Drivers/CMSIS/Include
+    
 )
 
 # STM32CubeMX generated application sources
@@ -89,3 +90,12 @@ set_target_properties(${CMAKE_PROJECT_NAME} PROPERTIES ADDITIONAL_CLEAN_FILES ${
 if((CMAKE_C_STANDARD EQUAL 90) OR (CMAKE_C_STANDARD EQUAL 99))
     message(ERROR "Generated code requires C11 or higher")
 endif()
+
+# ScieZki do katalogow z naglowkami
+include_directories( 
+    ${CMAKE_CURRENT_SOURCE_DIR}/Core/Inc
+    ${CMAKE_CURRENT_SOURCE_DIR}/Drivers/STM32F4xx_HAL_Driver/Inc
+    ${CMAKE_CURRENT_SOURCE_DIR}/Drivers/CMSIS/Device/ST/STM32F4xx/Include
+    ${CMAKE_CURRENT_SOURCE_DIR}/Drivers/CMSIS/Include
+    ${CMAKE_CURRENT_SOURCE_DIR}/Src/Drivers
+    )

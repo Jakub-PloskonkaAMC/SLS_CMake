@@ -1,0 +1,10 @@
+14:56:47 **** Incremental Build of configuration Debug for project SLS ****
+make -j4 all 
+arm-none-eabi-size  SLS.elf 
+   text	   data	    bss	    dec	    hex	filename
+ 147844	    772	 149036	 297652	  48ab4	SLS.elf
+Finished building: default.size.stdout
+ 
+
+14:56:48 Build Finished. 0 errors, 0 warnings. (took 525ms)
+
