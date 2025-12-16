@@ -1,0 +1,4 @@
+../Src/Drivers/board.c:95:6:Board_Init	2
+../Src/Drivers/board.c:108:10:Get_Speed	12
+../Src/Drivers/board.c:160:6:Error_Handler	1
+../Src/Drivers/board.c:170:6:SystemClock_Config	2

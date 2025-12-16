@@ -1,0 +1,11 @@
+../Src/Memory/flash_handler.c:15:13:Flash_Unlock	3
+../Src/Memory/flash_handler.c:30:13:Flash_Lock	2
+../Src/Memory/flash_handler.c:40:13:Flash_Error	1
+../Src/Memory/flash_handler.c:115:13:Flash_ReadByte	1
+../Src/Memory/flash_handler.c:121:13:Flash_Read	5
+../Src/Memory/flash_handler.c:59:13:Flash_Erese_Internal	3
+../Src/Memory/flash_handler.c:82:13:Flash_Write	4
+../Src/Memory/flash_handler.c:193:6:Memory_LL_Save	2
+../Src/Memory/flash_handler.c:204:6:Memory_LL_Read	1
+../Src/Memory/flash_handler.c:147:6:Flash_Init	2
+../Src/Memory/flash_handler.c:172:6:Memory_LL_Clear	2

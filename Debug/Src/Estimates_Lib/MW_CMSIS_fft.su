@@ -1,0 +1,2 @@
+../Src/Estimates_Lib/MW_CMSIS_fft.c:10:6:mw_cmsis_fft_do_complex	8	static
+../Src/Estimates_Lib/MW_CMSIS_fft.c:48:6:mw_cmsis_fft_do_real	24	static

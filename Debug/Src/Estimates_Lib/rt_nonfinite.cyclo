@@ -1,0 +1,4 @@
+../Src/Estimates_Lib/rt_nonfinite.c:41:11:rtIsInf	3
+../Src/Estimates_Lib/rt_nonfinite.c:51:11:rtIsInfF	3
+../Src/Estimates_Lib/rt_nonfinite.c:61:11:rtIsNaN	2
+../Src/Estimates_Lib/rt_nonfinite.c:71:11:rtIsNaNF	2

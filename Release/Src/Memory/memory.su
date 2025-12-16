@@ -1,0 +1,5 @@
+../Src/Memory/memory.c:24:6:Memory_MakeDefaultConfig	24	static
+../Src/Memory/memory.c:137:6:Memory_Init	168	static,ignoring_inline_asm
+../Src/Memory/memory.c:144:6:Memory_SaveConfig	16	static
+../Src/Memory/memory.c:161:6:Memory_TakeConfig	8	static
+../Src/Memory/memory.c:167:6:Memory_ShowConfig	72	static

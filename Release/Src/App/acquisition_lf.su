@@ -1,0 +1,11 @@
+../Src/App/acquisition_lf.c:69:9:ACQ_getRandom	8	static
+../Src/App/acquisition_lf.c:76:6:ACQ_setOverFlow	0	static
+../Src/App/acquisition_lf.c:90:6:ACQ_Init	88	static
+../Src/App/acquisition_lf.c:170:9:ACQ_adxl_ST	0	static
+../Src/App/acquisition_lf.c:176:6:ACQ_Start	4	static
+../Src/App/acquisition_lf.c:191:6:ACQ_Stop	8	static
+../Src/App/acquisition_lf.c:206:6:ACQ_SampleAppend	88	static
+../Src/App/acquisition_lf.c:136:6:ACQ_DoJob	24	static
+../Src/App/acquisition_lf.c:375:10:ACQ_CheckForAbleSamples	0	static
+../Src/App/acquisition_lf.c:380:10:ACQ_GetSamples	48	static
+../Src/App/acquisition_lf.c:461:6:ACQ_clearOverFlow	0	static

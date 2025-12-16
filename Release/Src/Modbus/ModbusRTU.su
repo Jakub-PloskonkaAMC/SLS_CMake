@@ -1,0 +1,7 @@
+../Src/Modbus/ModbusRTU.c:66:6:_modbusRTU_portSetRx	0	static
+../Src/Modbus/ModbusRTU.c:71:6:_modbusRTU_portSetTx	0	static
+../Src/Modbus/ModbusRTU.c:288:6:modbusRTU_loop	32	static
+../Src/Modbus/ModbusRTU.c:293:6:modbusRTU_init	4	static
+../Src/Modbus/ModbusRTU.c:307:9:modbusRTU_sendMessage	24	static
+../Src/Modbus/ModbusRTU.c:355:6:modbusRTU_getChar	8	static
+../Src/Modbus/ModbusRTU.c:394:6:modbusRTU_BufferFlush	0	static

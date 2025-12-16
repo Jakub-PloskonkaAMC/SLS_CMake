@@ -1,0 +1,5 @@
+../Src/Memory/memory.c:24:6:Memory_MakeDefaultConfig	1
+../Src/Memory/memory.c:137:6:Memory_Init	12
+../Src/Memory/memory.c:144:6:Memory_SaveConfig	2
+../Src/Memory/memory.c:161:6:Memory_TakeConfig	1
+../Src/Memory/memory.c:167:6:Memory_ShowConfig	17

@@ -1,0 +1,7 @@
+../Drivers/CMSIS/Include/core_cm4.h:1939:34:__NVIC_SystemReset	0	static,ignoring_inline_asm
+../Src/Memory/memory.c:24:6:Memory_MakeDefaultConfig	24	static
+../Src/Memory/memory.c:144:6:Memory_SaveConfig	24	static
+../Src/Memory/memory.c:82:13:Memory_ReadConfigs	152	static,ignoring_inline_asm
+../Src/Memory/memory.c:137:6:Memory_Init	8	static
+../Src/Memory/memory.c:161:6:Memory_TakeConfig	8	static
+../Src/Memory/memory.c:167:6:Memory_ShowConfig	88	static

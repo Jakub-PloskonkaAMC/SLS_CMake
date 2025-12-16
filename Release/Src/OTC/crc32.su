@@ -1,0 +1,3 @@
+../Src/OTC/crc32.c:43:6:PrepareCrc32Calculation	0	static
+../Src/OTC/crc32.c:48:6:PartCrc32Calculation	0	static
+../Src/OTC/crc32.c:53:10:EndCrc32Calculation	0	static

@@ -1,0 +1,11 @@
+../Src/Drivers/adxl.c:21:9:adxl_read	5
+../Src/Drivers/adxl.c:38:6:adxl_read_fast	5
+../Src/Drivers/adxl.c:53:9:adxl_GetID	1
+../Src/Drivers/adxl.c:60:9:adxl_GetMST	1
+../Src/Drivers/adxl.c:67:9:adxl_GetPARTID	1
+../Src/Drivers/adxl.c:74:6:adxl_Init	5
+../Src/Drivers/adxl.c:88:6:adxl_Stop	5
+../Src/Drivers/adxl.c:102:6:adxl_GetAxisData_fast	1
+../Src/Drivers/adxl.c:109:10:adxl_GetAxisData	4
+../Src/Drivers/adxl.c:157:6:adxl_GetTemp	1
+../Src/Drivers/adxl.c:162:5:U2_to_dec	2

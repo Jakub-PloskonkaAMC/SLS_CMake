@@ -1,0 +1,14 @@
+../Src/Modbus/ModbusRTU_RingBuffer.h:14:16:modbusRTURingBuffer_GetChar	5
+../Src/Modbus/ModbusRTU_RingBuffer.h:30:16:modbusRTURingBuffer_PutChar	4
+../Src/Modbus/ModbusRTU_RingBuffer.h:46:16:modbusRTURingBuffer_Clear	2
+../Src/Modbus/ModbusRTU_RingBuffer.h:59:13:modbusRTURingBuffer_GoBack	3
+../Src/Modbus/ModbusRTU.c:76:16:_modbusRTU_getFuncDescIndex	4
+../Src/Modbus/ModbusRTU.c:89:16:_modbusRTU_checkFuncCode	3
+../Src/Modbus/ModbusRTU.c:100:16:_modbusRTU_processMessage	23
+../Src/Modbus/ModbusRTU.c:66:6:_modbusRTU_portSetRx	1
+../Src/Modbus/ModbusRTU.c:71:6:_modbusRTU_portSetTx	1
+../Src/Modbus/ModbusRTU.c:288:6:modbusRTU_loop	1
+../Src/Modbus/ModbusRTU.c:293:6:modbusRTU_init	1
+../Src/Modbus/ModbusRTU.c:307:9:modbusRTU_sendMessage	3
+../Src/Modbus/ModbusRTU.c:355:6:modbusRTU_getChar	6
+../Src/Modbus/ModbusRTU.c:394:6:modbusRTU_BufferFlush	1

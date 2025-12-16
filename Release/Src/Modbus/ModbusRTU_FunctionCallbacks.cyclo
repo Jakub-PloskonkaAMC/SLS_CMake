@@ -1,0 +1,8 @@
+../Src/Modbus/ModbusRTU_FunctionCallbacks.c:22:6:_modbusRTUFCallbacks_registersStructureRead	1
+../Src/Modbus/ModbusRTU_FunctionCallbacks.c:97:6:_modbusRTUFCallbacks_registersStructureWrite	1
+../Src/Modbus/ModbusRTU_FunctionCallbacks.c:119:5:_modbusRTUFCallbacks_bitArrayToInt	4
+../Src/Modbus/ModbusRTU_FunctionCallbacks.c:136:9:_modbusRTUFCallbacks_getCoilByte	3
+../Src/Modbus/ModbusRTU_FunctionCallbacks.c:158:6:modbusRTUFCallbacks_readCoils	11
+../Src/Modbus/ModbusRTU_FunctionCallbacks.c:190:6:modbusRTUFCallbacks_writeCoil	12
+../Src/Modbus/ModbusRTU_FunctionCallbacks.c:309:6:modbusRTUFCallbacks_readRegisters	3
+../Src/Modbus/ModbusRTU_FunctionCallbacks.c:352:6:modbusRTUFCallbacks_writeRegisters	3

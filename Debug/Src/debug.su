@@ -1,0 +1,7 @@
+../Src/debug.c:68:13:UART7_StartNextLog	8	static
+../Src/debug.c:53:7:enum2str	0	static
+../Src/debug.c:84:6:LOG_fprintf	36	static
+../Src/debug.c:121:6:UART7_Init	32	static
+../Src/debug.c:160:6:HAL_UART_TxCpltCallback	8	static
+../Src/debug.c:173:6:UART7_IRQHandler	8	static
+../Src/debug.c:178:6:DMA1_Stream1_IRQHandler	8	static

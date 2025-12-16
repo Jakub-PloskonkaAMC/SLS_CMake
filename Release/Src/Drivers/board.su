@@ -1,0 +1,4 @@
+../Src/Drivers/board.c:95:6:Board_Init	16	static
+../Src/Drivers/board.c:108:10:Get_Speed	0	static
+../Src/Drivers/board.c:160:6:Error_Handler	8	static
+../Src/Drivers/board.c:170:6:SystemClock_Config	96	static

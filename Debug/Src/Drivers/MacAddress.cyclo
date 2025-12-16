@@ -1,0 +1,2 @@
+../Src/Drivers/MacAddress.c:17:7:GetMACAddress	1
+../Src/Drivers/MacAddress.c:28:9:GetMACByte	1

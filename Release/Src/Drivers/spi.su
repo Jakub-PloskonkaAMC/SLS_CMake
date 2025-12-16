@@ -1,0 +1,9 @@
+../Src/Drivers/spi.c:152:13:SPI_CloseRxTx_ISR_Lightsome	24	static
+../Src/Drivers/spi.c:231:13:SPI_2linesTxISR_8BIT_Lightsome	0	static
+../Src/Drivers/spi.c:209:13:SPI_2linesRxISR_8BIT_Lightsome	0	static
+../Src/Drivers/spi.c:10:6:SPI1_Init	8	static
+../Src/Drivers/spi.c:37:6:HAL_SPI_MspInit	40	static
+../Src/Drivers/spi.c:60:6:HAL_SPI_MspDeInit	0	static
+../Src/Drivers/spi.c:70:6:SPI1_IRQHandler	0	static
+../Src/Drivers/spi.c:75:6:HAL_SPI_TxRxCpltCallback	16	static
+../Src/Drivers/spi.c:89:19:HAL_SPI_TransmitReceive_IT_Lightsome	8	static

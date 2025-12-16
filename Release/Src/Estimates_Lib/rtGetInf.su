@@ -1,0 +1,4 @@
+../Src/Estimates_Lib/rtGetInf.c:26:8:rtGetInf	0	static
+../Src/Estimates_Lib/rtGetInf.c:36:10:rtGetInfF	0	static
+../Src/Estimates_Lib/rtGetInf.c:46:8:rtGetMinusInf	0	static
+../Src/Estimates_Lib/rtGetInf.c:56:10:rtGetMinusInfF	0	static

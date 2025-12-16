@@ -1,0 +1,6 @@
+../Src/debug.c:53:7:enum2str	2
+../Src/debug.c:84:6:LOG_fprintf	13
+../Src/debug.c:121:6:UART7_Init	1
+../Src/debug.c:160:6:HAL_UART_TxCpltCallback	3
+../Src/debug.c:173:6:UART7_IRQHandler	1
+../Src/debug.c:178:6:DMA1_Stream1_IRQHandler	1

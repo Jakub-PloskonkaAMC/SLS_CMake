@@ -1,0 +1,7 @@
+../Src/Memory/flash_handler.c:40:13:Flash_Error	0	static,ignoring_inline_asm
+../Src/Memory/flash_handler.c:82:13:Flash_Write	16	static
+../Src/Memory/flash_handler.c:59:13:Flash_Erese_Internal	16	static
+../Src/Memory/flash_handler.c:147:6:Flash_Init	40	static
+../Src/Memory/flash_handler.c:172:6:Memory_LL_Clear	40	static
+../Src/Memory/flash_handler.c:193:6:Memory_LL_Save	32	static
+../Src/Memory/flash_handler.c:204:6:Memory_LL_Read	8	static

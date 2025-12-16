@@ -1,0 +1,6 @@
+../Src/Drivers/temp.c:19:6:HAL_ADC_MspInit	16	static
+../Src/Drivers/temp.c:29:6:ADC_Temp_Init	24	static
+../Src/Drivers/temp.c:58:6:Temp_SampleMake	8	static
+../Src/Drivers/temp.c:68:6:Temp_SampleGet	0	static
+../Src/Drivers/temp.c:80:6:ADC_IRQHandler	8	static
+../Src/Drivers/temp.c:96:6:HAL_ADC_ConvCpltCallback	8	static

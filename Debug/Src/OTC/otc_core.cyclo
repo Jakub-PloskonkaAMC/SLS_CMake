@@ -1,0 +1,9 @@
+../Drivers/CMSIS/Include/core_cm4.h:1939:34:__NVIC_SystemReset	1
+../Src/OTC/otc_core.c:28:13:Response	2
+../Src/OTC/otc_core.c:37:13:GetVersion	1
+../Src/OTC/otc_core.c:120:13:Done	2
+../Src/OTC/otc_core.c:57:13:Prepare	1
+../Src/OTC/otc_core.c:66:13:WriteData	2
+../Src/OTC/otc_core.c:88:13:VerifyData	2
+../Src/OTC/otc_core.c:135:6:OTC_Body	7
+../Src/OTC/otc_core.c:161:6:OTC_RegisterResponseHandler	1

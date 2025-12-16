@@ -1,0 +1,6 @@
+../Src/App/ModbusMath/ModbusMath_MaxMin.c:15:6:ModbusMath_MaxMin_Start	1
+../Src/App/ModbusMath/ModbusMath_MaxMin.c:22:6:ModbusMath_MaxMin_Stop	1
+../Src/App/ModbusMath/ModbusMath_MaxMin.c:27:6:ModbusMath_MaxMin_EnableRead	1
+../Src/App/ModbusMath/ModbusMath_MaxMin.c:32:10:ModbusMath_MaxMin_MaxValueRead	1
+../Src/App/ModbusMath/ModbusMath_MaxMin.c:37:10:ModbusMath_MaxMin_MinValueRead	1
+../Src/App/ModbusMath/ModbusMath_MaxMin.c:42:6:ModbusMath_MaxMin_Calculate	6

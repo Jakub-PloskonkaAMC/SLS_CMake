@@ -1,0 +1,8 @@
+../Src/Modbus/ModbusRTU_FunctionCallbacks.c:22:6:_modbusRTUFCallbacks_registersStructureRead	128	static
+../Src/Modbus/ModbusRTU_FunctionCallbacks.c:97:6:_modbusRTUFCallbacks_registersStructureWrite	80	static
+../Src/Modbus/ModbusRTU_FunctionCallbacks.c:119:5:_modbusRTUFCallbacks_bitArrayToInt	16	dynamic
+../Src/Modbus/ModbusRTU_FunctionCallbacks.c:136:9:_modbusRTUFCallbacks_getCoilByte	16	static
+../Src/Modbus/ModbusRTU_FunctionCallbacks.c:158:6:modbusRTUFCallbacks_readCoils	64	static
+../Src/Modbus/ModbusRTU_FunctionCallbacks.c:190:6:modbusRTUFCallbacks_writeCoil	88	static
+../Src/Modbus/ModbusRTU_FunctionCallbacks.c:309:6:modbusRTUFCallbacks_readRegisters	544	static
+../Src/Modbus/ModbusRTU_FunctionCallbacks.c:352:6:modbusRTUFCallbacks_writeRegisters	800	static

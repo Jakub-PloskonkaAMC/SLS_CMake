@@ -1,0 +1,9 @@
+../Drivers/CMSIS/Include/core_cm4.h:1939:34:__NVIC_SystemReset	0	static,ignoring_inline_asm
+../Src/OTC/otc_core.c:28:13:Response	16	static
+../Src/OTC/otc_core.c:37:13:GetVersion	16	static
+../Src/OTC/otc_core.c:120:13:Done	16	static,ignoring_inline_asm
+../Src/OTC/otc_core.c:57:13:Prepare	16	static
+../Src/OTC/otc_core.c:66:13:WriteData	40	static
+../Src/OTC/otc_core.c:88:13:VerifyData	32	static
+../Src/OTC/otc_core.c:135:6:OTC_Body	8	static
+../Src/OTC/otc_core.c:161:6:OTC_RegisterResponseHandler	0	static

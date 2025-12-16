@@ -1,0 +1,7 @@
+../Src/OTC/otc_flash.c:20:13:OTC_Flash_Unlock	3
+../Src/OTC/otc_flash.c:35:13:OTC_Flash_Lock	2
+../Src/OTC/otc_flash.c:45:13:OTC_Flash_Error	1
+../Src/OTC/otc_flash.c:81:13:OTC_ReadByte	1
+../Src/OTC/otc_flash.c:56:6:OTC_Erese_Internal	3
+../Src/OTC/otc_flash.c:87:6:OTC_Read	5
+../Src/OTC/otc_flash.c:113:6:OTC_Write	4
