@@ -50,7 +50,23 @@ target_sources(${CMAKE_PROJECT_NAME} PRIVATE
 # Add include paths
 target_include_directories(${CMAKE_PROJECT_NAME} PRIVATE
     # Add user defined include paths
+    ${CMAKE_CURRENT_SOURCE_DIR}/Src/App
+    ${CMAKE_CURRENT_SOURCE_DIR}/Src/App/ModbusMath
+    ${CMAKE_CURRENT_SOURCE_DIR}/Src/Drivers
+    ${CMAKE_CURRENT_SOURCE_DIR}/Src/Estimates_Lib
+    ${CMAKE_CURRENT_SOURCE_DIR}/Src/Memory
+    ${CMAKE_CURRENT_SOURCE_DIR}/Src/Modbus
+    ${CMAKE_CURRENT_SOURCE_DIR}/Src/OTC
 )
+
+set(MX_Application_Src
+    ${CMAKE_CURRENT_SOURCE_DIR}/Src/main.c
+    ${CMAKE_CURRENT_SOURCE_DIR}/Src/stm32f4xx_it.c
+    ${CMAKE_CURRENT_SOURCE_DIR}/Src/stm32f4xx_hal_msp.c
+    ${CMAKE_CURRENT_SOURCE_DIR}/Src/sysmem.c
+    ${CMAKE_CURRENT_SOURCE_DIR}/Src/drivers/rs485.c
+)
+
 
 # Add project symbols (macros)
 target_compile_definitions(${CMAKE_PROJECT_NAME} PRIVATE
