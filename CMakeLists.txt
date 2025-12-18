@@ -45,7 +45,7 @@ target_link_directories(${CMAKE_PROJECT_NAME} PRIVATE
 # Add sources to executable
 target_sources(${CMAKE_PROJECT_NAME} PRIVATE
     # Add user sources here
-    
+
 )
 
 # Add include paths
@@ -68,7 +68,11 @@ file(GLOB_RECURSE USER_SOURCES CONFIGURE_DEPENDS
     ${CMAKE_CURRENT_SOURCE_DIR}/Src/Memory/*.c
     ${CMAKE_CURRENT_SOURCE_DIR}/Src/Modbus/*.c
     ${CMAKE_CURRENT_SOURCE_DIR}/Src/OTC/*.c
-    ${CMAKE_CURRENT_SOURCE_DIR}/Src/Debug/*.c
+    ${CMAKE_CURRENT_SOURCE_DIR}/Src/debug.c
+    ${CMAKE_CURRENT_SOURCE_DIR}/Src/main.c
+    ${CMAKE_CURRENT_SOURCE_DIR}/Src/stm32f4xx_hal_msp.c
+    ${CMAKE_CURRENT_SOURCE_DIR}/Src/stm32f4xx_it.c
+    ${CMAKE_CURRENT_SOURCE_DIR}/Src/syscalls.c
 )
 
 target_sources(${CMAKE_PROJECT_NAME} PRIVATE
@@ -94,6 +98,5 @@ list(REMOVE_ITEM CMAKE_C_IMPLICIT_LINK_LIBRARIES ob)
 # Add linked libraries
 target_link_libraries(${CMAKE_PROJECT_NAME}
     stm32cubemx
-
     # Add user defined libraries
 )

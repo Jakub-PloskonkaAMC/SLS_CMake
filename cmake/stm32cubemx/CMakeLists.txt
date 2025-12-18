@@ -85,10 +85,16 @@ target_link_libraries(STM32_Drivers PUBLIC stm32cubemx)
 target_sources(${CMAKE_PROJECT_NAME} PRIVATE ${MX_Application_Src})
 
 # Link directories setup
-target_link_directories(${CMAKE_PROJECT_NAME} PRIVATE ${MX_LINK_DIRS})
+target_link_directories(${CMAKE_PROJECT_NAME} PRIVATE 
+    ${MX_LINK_DIRS}
+    ${CMAKE_CURRENT_SOURCE_DIR}/Drivers/CMSIS/Lib/GCC/libarm_cortexM4lf_math.a
+)
 
 # Add libraries to the project
-target_link_libraries(${CMAKE_PROJECT_NAME} ${MX_LINK_LIBS})
+target_link_libraries(${CMAKE_PROJECT_NAME}
+    ${MX_LINK_LIBS}
+    arm_cortexM4lf_math
+)
 
 # Add the map file to the list of files to be removed with 'clean' target
 set_target_properties(${CMAKE_PROJECT_NAME} PROPERTIES ADDITIONAL_CLEAN_FILES ${CMAKE_PROJECT_NAME}.map)
