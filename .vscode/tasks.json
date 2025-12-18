@@ -1,0 +1,32 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Flash (ELF)",
+      "type": "shell",
+      "command": "C:/App/STMProgrammer/bin/STM32_Programmer_CLI.exe",
+      "args": [
+        "--connect", "port=SWD",
+        "--write", "${workspaceFolder}\\build\\Debug\\SLS_CMake.elf",
+        "--verify"
+      ],
+      "problemMatcher": []
+    },
+    {
+      "label": "Go (Run)",
+      "type": "shell",
+      "command": "C:/App/STMProgrammer/bin/STM32_Programmer_CLI.exe",
+      "args": [
+        "--connect", "port=SWD",
+        "--go"
+      ],
+      "problemMatcher": []
+    },
+    {
+      "label": "Flash + Go",
+      "dependsOrder": "sequence",
+      "dependsOn": ["Flash (ELF)", "Go (Run)"],
+      "problemMatcher": []
+    }
+  ]
+}
