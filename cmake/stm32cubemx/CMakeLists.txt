@@ -87,7 +87,7 @@ target_sources(${CMAKE_PROJECT_NAME} PRIVATE ${MX_Application_Src})
 # Link directories setup
 target_link_directories(${CMAKE_PROJECT_NAME} PRIVATE 
     ${MX_LINK_DIRS}
-    ${CMAKE_CURRENT_SOURCE_DIR}/Drivers/CMSIS/Lib/GCC/libarm_cortexM4lf_math.a
+    ${CMAKE_CURRENT_SOURCE_DIR}/../../Drivers/CMSIS/Lib/GCC/
 )
 
 # Add libraries to the project
