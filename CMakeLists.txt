@@ -45,6 +45,7 @@ target_link_directories(${CMAKE_PROJECT_NAME} PRIVATE
 # Add sources to executable
 target_sources(${CMAKE_PROJECT_NAME} PRIVATE
     # Add user sources here
+    
 )
 
 # Add include paths
@@ -57,16 +58,30 @@ target_include_directories(${CMAKE_PROJECT_NAME} PRIVATE
     ${CMAKE_CURRENT_SOURCE_DIR}/Src/Memory
     ${CMAKE_CURRENT_SOURCE_DIR}/Src/Modbus
     ${CMAKE_CURRENT_SOURCE_DIR}/Src/OTC
+    ${CMAKE_CURRENT_SOURCE_DIR}/Drivers/CMSIS/DSP/Include
+)
+
+file(GLOB_RECURSE USER_SOURCES CONFIGURE_DEPENDS
+    ${CMAKE_CURRENT_SOURCE_DIR}/Src/App/*.c
+    ${CMAKE_CURRENT_SOURCE_DIR}/Src/Drivers/*.c
+    ${CMAKE_CURRENT_SOURCE_DIR}/Src/Estimates_Lib/*.c
+    ${CMAKE_CURRENT_SOURCE_DIR}/Src/Memory/*.c
+    ${CMAKE_CURRENT_SOURCE_DIR}/Src/Modbus/*.c
+    ${CMAKE_CURRENT_SOURCE_DIR}/Src/OTC/*.c
+    ${CMAKE_CURRENT_SOURCE_DIR}/Src/Debug/*.c
+)
+
+target_sources(${CMAKE_PROJECT_NAME} PRIVATE
+    ${USER_SOURCES}
 )
 
 set(MX_Application_Src
     ${CMAKE_CURRENT_SOURCE_DIR}/Src/main.c
     ${CMAKE_CURRENT_SOURCE_DIR}/Src/stm32f4xx_it.c
     ${CMAKE_CURRENT_SOURCE_DIR}/Src/stm32f4xx_hal_msp.c
-    ${CMAKE_CURRENT_SOURCE_DIR}/Src/sysmem.c
+    #${CMAKE_CURRENT_SOURCE_DIR}/Src/sysmem.c
     ${CMAKE_CURRENT_SOURCE_DIR}/Src/drivers/rs485.c
 )
-
 
 # Add project symbols (macros)
 target_compile_definitions(${CMAKE_PROJECT_NAME} PRIVATE

@@ -15,6 +15,7 @@ set(MX_Include_Dirs
     ${CMAKE_CURRENT_SOURCE_DIR}/../../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy
     ${CMAKE_CURRENT_SOURCE_DIR}/../../Drivers/CMSIS/Device/ST/STM32F4xx/Include
     ${CMAKE_CURRENT_SOURCE_DIR}/../../Drivers/CMSIS/Include
+    ${CMAKE_CURRENT_SOURCE_DIR}/../../Drivers/CMSIS/DSP/Include
     
 )
 
@@ -23,7 +24,7 @@ set(MX_Application_Src
     ${CMAKE_CURRENT_SOURCE_DIR}/../../Src/main.c
     ${CMAKE_CURRENT_SOURCE_DIR}/../../Src/stm32f4xx_it.c
     ${CMAKE_CURRENT_SOURCE_DIR}/../../Src/stm32f4xx_hal_msp.c
-    ${CMAKE_CURRENT_SOURCE_DIR}/../../Src/sysmem.c
+    # ${CMAKE_CURRENT_SOURCE_DIR}/../../Src/sysmem.c
     ${CMAKE_CURRENT_SOURCE_DIR}/../../Src/syscalls.c
     ${CMAKE_CURRENT_SOURCE_DIR}/../../startup_stm32f413xx.s
 )
@@ -47,6 +48,12 @@ set(STM32_Drivers_Src
     ${CMAKE_CURRENT_SOURCE_DIR}/../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c
     ${CMAKE_CURRENT_SOURCE_DIR}/../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c
     ${CMAKE_CURRENT_SOURCE_DIR}/../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+    
+    ${CMAKE_CURRENT_LIST_DIR}/../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c
+    # ${CMAKE_CURRENT_LIST_DIR}/../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi_ex.c
+    ${CMAKE_CURRENT_LIST_DIR}/../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c
+    ${CMAKE_CURRENT_LIST_DIR}/../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c
+
 )
 
 # Drivers Midllewares
@@ -90,11 +97,3 @@ set_target_properties(${CMAKE_PROJECT_NAME} PROPERTIES ADDITIONAL_CLEAN_FILES ${
 if((CMAKE_C_STANDARD EQUAL 90) OR (CMAKE_C_STANDARD EQUAL 99))
     message(ERROR "Generated code requires C11 or higher")
 endif()
-
-# Sciezki do katalogow z naglowkami
-target_include_directories(${CMAKE_PROJECT_NAME} PRIVATE
-    ${CMAKE_CURRENT_SOURCE_DIR}/Core/Inc
-    ${CMAKE_CURRENT_SOURCE_DIR}/Drivers/STM32F4xx_HAL_Driver/Inc
-    ${CMAKE_CURRENT_SOURCE_DIR}/Drivers/CMSIS/Device/ST/STM32F4xx/Include
-    ${CMAKE_CURRENT_SOURCE_DIR}/Drivers/CMSIS/Include
-    )
